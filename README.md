@@ -6,6 +6,7 @@ r2Playground is what we've always wanted - an all encompassing resource for lear
 
 ### What's inside?
 
+- Intro
 - Module_Template
 
 ### Structure
@@ -21,8 +22,10 @@ r2Playground is what we've always wanted - an all encompassing resource for lear
 
 (use Module_Template as a starting point - e.g., cp -r Module_Template New_Module)
 
-#### Resources
+#### Good Resources
 
 - https://rada.re
-- https://github.com/dsasmblr/game-hacking/
+- https://legacy.gitbook.com/@radare
+- https://github.com/radare/radare2
+- https://www.radare.org/r/cmp.html
 - https://www.begin.re
