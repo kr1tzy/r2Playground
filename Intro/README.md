@@ -7,6 +7,7 @@
 
 <details>
 <summary>Crackme0x01</summary>
+
 * Before anything i symlinked the binary into my local folder in case I want to extract any information from it and keep it on my machine. 
 	* ``cd Intro/local && ln -s ../bin/crackme0x01 .``
 * When I approach an unknown binary I generally try to gather as much information as I can at first. This is where rabin2 comes into play.
@@ -24,7 +25,9 @@
 * Winner winner chicken dinner.
 </details>
 
-#### Crackme0x02
+<details>
+<summary>Crackme0x02</summary>
+
 * Similar procedure to before, symlink the binary into the local folder and run ``rabin2 -I crackme0x02``
 * It basically reveals identical information, even the size. It is in fact a different binary though.
 * Main looks like the only good spot to start again (use ``afl``)
@@ -47,6 +50,7 @@
 * ``s main`` and find the jne instruction (``0x08048451``). Enter visual mode, switch to disassembly view, and use the cursor to hover over the bytes and enter ``A`` followed by ``NOP; NOP`` and save the changes.
 * Exit visual mode and continue with ``dc``.
 * Enter any password and you should get a winner winner chicken dinner.
+</details>
 
 #### Resources
 * https://docs.google.com/presentation/d/1_eSJX43HtyyBtgN9yW7GI3s9JP9QMnaNHs3H6468kSQ/edit?usp=sharing
