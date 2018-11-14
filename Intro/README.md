@@ -47,8 +47,6 @@
 * Exit visual mode and continue with ``dc``.
 * Enter any password and you should get a winner winner chicken dinner.
 
-#### The rest of the crackme walkthroughs will be added
-
 #### Resources
 * https://docs.google.com/presentation/d/1_eSJX43HtyyBtgN9yW7GI3s9JP9QMnaNHs3H6468kSQ/edit?usp=sharing
 * http://security.cs.rpi.edu/courses/binexp-spring2015/
