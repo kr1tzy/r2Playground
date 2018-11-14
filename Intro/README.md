@@ -5,7 +5,9 @@
 * Crackme0x01 walkthrough
 * Crackme0x02 walkthrough
 
-#### Crackme0x01
+<details>
+<summary>Crackme0x01</summary>
+<p>
 * Before anything i symlinked the binary into my local folder in case I want to extract any information from it and keep it on my machine. 
 	* ``cd Intro/local && ln -s ../bin/crackme0x01 .``
 * When I approach an unknown binary I generally try to gather as much information as I can at first. This is where rabin2 comes into play.
@@ -21,6 +23,8 @@
 * Obviously this isn't what's it's wanting exactly so I utilize the r2rax core to evaluate 0x149a as an integer with ``? 0x149a``
 * The integer form is 5274
 * Winner winner chicken dinner.
+<p>
+</details>
 
 #### Crackme0x02
 * Similar procedure to before, symlink the binary into the local folder and run ``rabin2 -I crackme0x02``
