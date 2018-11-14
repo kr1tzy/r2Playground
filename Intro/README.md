@@ -1,8 +1,7 @@
 # Introduction
 
 ### Overview
-* Introductory slides in slides directory and under resources of this README
-* Crackme challenges are in the ./bin directory
+* Intro slides 
 * Crackme0x01 walkthrough
 * Crackme0x02 walkthrough
 
