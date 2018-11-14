@@ -1,9 +1,4 @@
-# Introduction
-
-### Overview
-* Intro slides 
-* Crackme0x01 walkthrough
-* Crackme0x02 walkthrough
+# RPISEC Challenges
 
 <details>
 <summary>Crackme0x01</summary>
