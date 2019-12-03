@@ -1,0 +1,20 @@
+version: "3"
+services:
+    r2playground: 
+        build: .
+        cap_add:
+            - SYS_PTRACE
+        container_name: r2playground
+        entrypoint: /bin/bash
+        environment:
+            - discovery.type=single-node
+        security_opt:
+            - seccomp:unconfined
+            - apparmor:unconfined
+        ports:
+            - 8080:8080
+        privileged: true
+        stdin_open: true
+        tty: true
+        volumes:
+            - ./src/:/r2Playground/
